@@ -159,6 +159,43 @@ txt = "My name is Nitheesha"
 if "Nitheesha" in txt:
   print("Yes, 'Nitheesha' is present.")
 
+# slicing
+# Get the characters from position 0 to position 5
+b = "Hello, World!"
+print(b[0:5])
 
+# Get the characters from the start to position
+b = "Hello, World!"
+print(b[:5])
+
+
+# Slice To the End
+b = "Hello, World!"
+print(b[2:])
+
+# negative indexes to start the slice from the end of the string
+b = "Nitheesha"
+print(b[-5:-2]) # ees
+
+# to upper
+a = "Nitheesha Reddy"
+print(a.upper())
+
+# to lower
+a = "Nitheesha Reddy"
+print(a.lower())
+
+# to remove white space
+a = " Nitheesha Reddy "
+print(a.strip())
+
+# replace string
+a = "S Nitheesha"
+print(a.replace("S", "V"))
+
+# split string
+a = "S.Nitheesha"
+b = a.split(".")
+print(b)
 
 
